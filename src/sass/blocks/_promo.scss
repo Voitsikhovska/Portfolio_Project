@@ -24,7 +24,7 @@
   &__link {
     color: #000;
     font-weight: bold;
-    :hover {
+    &:hover {
       color: #000;
       text-decoration: none;
     }
