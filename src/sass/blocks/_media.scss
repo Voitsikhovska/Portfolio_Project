@@ -67,7 +67,7 @@
     }
   }
   .divider {
-    margin: 0 auto;
+    margin: 15px auto 0 auto;
   }
   .about {
     &__wrapper {
@@ -100,6 +100,12 @@
       &-line {
         width: 100%;
       }
+    }
+  }
+  .price {
+    &__wrapper {
+      grid-template-columns: repeat(auto-fit, 350px);
+      padding: 0;
     }
   }
 }
@@ -163,6 +169,13 @@
   .works {
     padding-top: 40px;
   }
+  .price {
+    padding-top: 40px;
+    &__wrapper {
+      margin-top: 20px;
+      justify-content: center;
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -213,6 +226,11 @@
     }
     &__percentages {
       grid-template-columns: repeat(auto-fit, 300px);
+    }
+  }
+  .price {
+    &__wrapper {
+      grid-template-columns: repeat(auto-fit, 295px);
     }
   }
 }
